@@ -1,0 +1,8 @@
+<!DOCTYPE movies [
+    <!ELEMENT movies (movie+)>
+    <!ELEMENT movie (title, showtime, price, availableSeats)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT showtime (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT availableSeats (#PCDATA)>
+]>

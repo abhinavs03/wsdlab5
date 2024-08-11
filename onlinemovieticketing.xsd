@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           elementFormDefault="qualified" 
+           attributeFormDefault="unqualified" 
+           targetNamespace="http://www.example.com/onlinemovieticketing" 
+           xmlns:movie="http://www.example.com/onlinemovieticketing">
+
+    <!-- Define the root element -->
+    <xs:element name="movies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="showtime" type="xs:string"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                            <xs:element name="availableSeats" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

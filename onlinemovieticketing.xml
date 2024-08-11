@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="onlinemovieticketing.xsl" type="text/xsl" ?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/onlinemovieticketing" xsi:schemaLocation="http://www.example.com/onlinemovieticketing onlinemovieticketing.xsd">
+    <movie>
+        <title>Inception</title>
+        <showtime>2024-08-11T19:00:00</showtime>
+        <price>12.50</price>
+        <availableSeats>120</availableSeats>
+    </movie>
+    <movie>
+        <title>The Matrix</title>
+        <showtime>2024-08-11T21:00:00</showtime>
+        <price>10.00</price>
+        <availableSeats>150</availableSeats>
+    </movie>
+</movies>
